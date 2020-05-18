@@ -50,7 +50,6 @@ describe('Game', () => {
 
     it("Inserts an 'X' into the top left", async () => {
       game.turn(0)
-      
       expect(game.board[0][0]).toBe('X')
     })
   })
